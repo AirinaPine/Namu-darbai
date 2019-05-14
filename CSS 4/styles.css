@@ -1,6 +1,55 @@
+/* THE MAIN STYLES FOR THE ANALOG SPECIALISTS index.html */
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    color: #333333;
+}
+
 #main-container {
-    width: 60%;
-    margin: 50px auto;
-    display: block;
-    /* text-align: center; */
+    width: 600px;
+    margin: 30px auto;
+    font-family: 'Courier New', Courier, monospace
+}
+
+header {
+    padding-bottom: 20px;
+    border-bottom: 3px solid #333333;
+}
+
+header h2 {
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.5rem;
+    font-weight: unset;
+}
+
+#analog {
+    font-size: 2.7rem;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    border-bottom: 2px solid #333333;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+}
+
+nav div:first-child {
+    color: red;
+}
+
+img {
+    padding: 20px 0px;
+}
+
+main > p {
+    text-align: center;
 }
