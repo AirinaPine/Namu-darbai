@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+#reg-form {
+    background-color: #FFF6A3;
+}
+
+#participants {
+    background-color: #C0F7BD;
+}
+
+#reg-form, #participants {
+    width: 45rem;
+    padding:1.5rem;
+    margin: .5rem 0rem;
+}
+
+.form-wrapper {
+    list-style-type: none;
+    width: 30rem;
+    margin: 3px;
+}
+
+.form-wrapper > input {
+    width: 50rem;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 3px;
+}
+
+input {
+    border-radius: 4px;
+    padding: 0.4rem;
+}
+
+#reg-button {
+    width: 30rem;
+    background-color: #DDDDDD;
+    border-radius: 4px;
+    border-right: 2px solid #898989;
+    border-bottom: 3px solid #898989;
+}
+
+#reg-table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#reg-table th,td {
+    padding: 5px;
+}
+
+#reg-table td {
+    border: 1px solid black;
+}
+
+#reg-table .vardas {
+    width: 65%;
+}

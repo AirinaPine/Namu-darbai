@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css" type="css/text">
+        <link rel="stylesheet" href="styles.css" type="text/css">
         <title>Registracijos forma</title>
     </head>
 
@@ -15,18 +15,29 @@
             <h3>Registracijos forma</h3>
             <p>Jeigu norite užsiregistruoti į renginį, užpildykite žemiau esančią formą. Žemiau lentelėje galite matyti jau užsiregitravusius dalyvius.</p>
             <form action="forma.php">
-                Vardas<input type="text" name="first-name" >
-                Pavardė<input type="text" name="last-name">
-                Elektroninis paštas<input type="email" name="email">
-                <input type="submit" value="Registruotis">
+                <div class="form-wrapper">
+                    <div class="form-row">
+                        <label for="first-name">Vardas</label>
+                        <input type="text" name="first-name" id="first-name" size="50">
+                    </div>
+                    <div class="form-row">
+                        <label for="last-name">Pavardė</label>
+                        <input type="text" name="last-name" id="last-name" size="50">
+                    </div>
+                    <div class="form-row"> 
+                        <label for="email">Elektroninis paštas</label>
+                        <input type="email" name="email" id="email" size="50">
+                    </div>
+                </div>
+                <input type="submit" value="Registruotis" id="reg-button">
             </form>
         </div>
 
         <div id="participants">
             <h3>Jau užsiregistravę dalyviai:</h3>
-            <table>
+            <table id="reg-table">
                 <tr>
-                    <th>Vardas</th>
+                    <th class="vardas">Vardas</th>
                     <th>Pavardė</th>
                     <th>Elektroninis paštas</th>
                 </tr>
