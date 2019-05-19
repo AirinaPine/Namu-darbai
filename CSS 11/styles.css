@@ -1,0 +1,40 @@
+/* NAVIGATIONS STYLES */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 0.7rem;
+}
+
+
+#top-nav {
+    background-color: #689F39;
+    color: white;
+}
+
+#top-nav ul li a {
+    color: white;
+}
+
+
+/* MAIN STYLES */
+
+.col-sm-3 {
+    height: 20rem;
+}
+
+h1, h5 {
+    font-weight: normal
+}
+
+.border {
+    padding: 1.2rem 0.5rem;
+    height: 25rem;
+}
+
+img {
+    width: 100%;
+    margin-bottom: .8rem;
+}
